@@ -54,14 +54,18 @@ public class App {
     }
 
     public static String getNumberOfTasks() {
-        int numeroDeTarefas = Requests.getTasks(Main.userName).length;
+        try {
+            int numeroDeTarefas = Requests.getTasks(Main.userName).length;
 
-        if (numeroDeTarefas == 0) {
+            if (numeroDeTarefas == 0) {
+                return "Sem tarefas por fazer";
+            } else if (numeroDeTarefas == 1) {
+                return numeroDeTarefas + " tarefa por fazer";
+            } else {
+                return numeroDeTarefas + " tarefas por fazer";
+            }
+        } catch (NullPointerException _) {
             return "Sem tarefas por fazer";
-        } else if (numeroDeTarefas == 1) {
-            return numeroDeTarefas + " tarefa por fazer";
-        } else {
-            return numeroDeTarefas + " tarefas por fazer";
         }
     }
 
