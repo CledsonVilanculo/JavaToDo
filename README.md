@@ -1,33 +1,32 @@
 # Portugues
 
-## JAVA TO DO LIST
+## JAVA TO DO LIST V2.2
 
 ### Mudanças
 
-- Agora o programa é executavel no Windows mesmo sem o Java instalado
-- Agora o programa usa o JOptionPane como interface gráfica, ao invés do terminal
-- Agora os ficheiros das tarefas são guardados em uma pasta separada do fiheiro .exe para evitar confusão
+- Agora o programa usa janelas (JFrame), na versão anterior usava JOptionPane
+- Agora as tarefas são guardadas em um banco de dados (que muito provavelmente está configurado, é a primeira vez que mexo com MySQL)
 
 ### Informacoes basicas
 
-- `Versao`: 2.1
+- `Versao`: 2.2
 - `Dev`: Cledson Vilanculo
 - `Objectivo`: Criar e gerir uma lista de tarefas
-- `Por enquanto`: Por enquanto vou tentar criar uma interface gráfica mais bonita e organizada
+- `Por enquanto`: Provavelmente esta é a última atualização que este projeto vai receber
+
 
 # English
 
-## JAVA TO DO LIST
+## JAVA TO DO LIST V2.2
 
-### Changelog
+### Changes
 
-- Now the program runs on Windows even without Java installed
-- Now the program uses JOptionPane as a graphical interface, instead of the terminal
-- Task files are now saved in a separate folder from the .exe file to avoid confusion
+- The program now uses windows (JFrame), the previous version used JOptionPane
+- Tasks are now saved in a database (which is most likely already configured; this is my first time working with MySQL)
 
-### Basic informations
+### Basic Information
 
-- `Version`: 2.1
-- `Dev`: Cledson Vilanculo
-- `Objective`: Creating and managing a to-do list
-- `For now`: For now I will try to create a more beautiful and organized graphical interface.
+- Version: 2.2
+- Developer: Cledson Vilanculo
+- Purpose: To create and manage a to-do list
+- For now: This is probably the last update this project will receive
