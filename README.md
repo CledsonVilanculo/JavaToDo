@@ -26,7 +26,8 @@
 
 ### Basic Information
 
-- Version: 2.2
-- Developer: Cledson Vilanculo
-- Purpose: To create and manage a to-do list
-- For now: This is probably the last update this project will receive
+- `Version`: 2.2
+- `Developer`: Cledson Vilanculo
+- `Purpose`: To create and manage a to-do list
+- `For now`: This is probably the last update this project will receive
+
